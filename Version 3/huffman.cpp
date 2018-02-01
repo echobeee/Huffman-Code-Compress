@@ -252,4 +252,5 @@ void Huffman::Extract()
 	cout << "Extract success!\n";
 	//清除。
 	huffTree.resize(0);
+	n_types = 0;
 }
